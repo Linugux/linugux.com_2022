@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Linugux.com</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="linugux.jpg" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body style="background-color: black;" class="text-center">
+    <nav>
+      <h1><img src="linugux.jpg" width="10%" style="position: ;">Linugux.com</h1>
+      <tt>Creation and Design</tt>
+    </nav>
+    <main class="form-signin" style="display: none">
+       	<div id="login-form">
+	        <input class="form-control" type="email" id="email1" name="email1" placeholder="E-mail" />
+	        <input class="form-control" type="password" id="password1" name="password1" placeholder="Password" />
+	        <div class="checkbox mb-3">
+		        <label>
+		          <input type="checkbox" value="remember-me"> Remember me
+		        </label>
+		      </div>
+	        <input class="btn btn-lg btn-primary btn-block" type="submit" id='login' name="login" value="Login" />
+	    	  <button class="btn btn-lg btn-primary btn-block" ><a style="color: black;" href="signup.html">SignUP</a></button>
+	    </div>
+      <hr>
+      
+
+
+	    <div id="logout1" style="display: none">
+      	<b>Welcome ... </b>
+        <section class="conteiner">
+          <img id='logo' src="linuguxPurple.jpg" width="20%">
+        </section>
+        <br>
+        <pre id="showUsername"></pre>
+        <pre id="status"></pre>
+      </div>
+      <div id="buttonUpdate" style="display: none;">
+	    	  <input class="btn btn-lg btn-primary btn-block" type="submit" id='cupdate' name="cupdate" value="Perfil" />
+	    </div>
+        <div id="actualizar" style="display: none"> 
+          <input class="form-control" type="text" id="username" name="username" placeholder="First name" />
+          <input class="form-control" type="text" id="lastname" name="lastname" placeholder="Last Name" />
+          <input class="form-control" type="email" id="email" name="email" placeholder="Email" />
+          <input class="form-control" type="text" id="telephone" name="telephone" placeholder="Telephone" />
+
+          <input class="btn btn-lg btn-primary btn-block" type="submit" id='wupdate' name="wupdate" value="Update" />
+          <input class="btn btn-lg btn-primary btn-block" type="submit" id='cancel' name="cancel" value="Cancel" />
+        </div>
+        <hr>
+        <div id="logout4" style="display: none">
+          <pre id="dt"></pre>
+          <input class="btn btn-lg btn-primary btn-block" type="submit" id='logout' name="logout" value="Logout" />
+        </div>
+    </main>
+    <hr>
+    <div>
+        <form id="task-form">
+      <input type="text" id="task-title" placeholder="Quiz and Question ?">
+      <br>
+      <textarea id="task-description" rows="3" placeholder="Description "></textarea>
+      <br>
+      <button id="btn-task-save" >Save</button>
+    </form>
+    <hr>
+    <div id="tasks-container"></div>
+      </div>
+      <hr>
+    <div id="message" class="conteiner" style="display: ; ;">
+      	<section >
+      		<p>I am , Nestor Garrido<br>
+      		  <b>(+52) 56 2460 0477</b><br>
+            <b>Linugux@gmail.com</b>
+          </p>
+      	</section>
+    </div>
+    <!--
+    <p id="load" style="color: white;">Linugux.com Loading ... &hellip;</p>
+    <script src="./loading.js"></script>
+     import  -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+<script type="module" src="./index.js"></script>
+<!-- import  -->
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-storage.js"></script>
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  
+  
+</script>
+
+  </body>
+</html>

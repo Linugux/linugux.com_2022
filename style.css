@@ -1,0 +1,94 @@
+<style>
+      body {
+      	
+      	font-family: Roboto, Helvetica, Arial, sans-serif; 
+      	margin: 0; padding: 0;
+        color: white; 
+      }
+      body { 
+            border-top: 10px solid #ffa100;
+            color: white; 
+        }
+
+      .form-signin {
+        max-width: 330px;
+        padding: 5px;
+        margin: auto;
+      }
+
+      
+      .form-signin .checkbox {
+        font-weight: 400;
+      }
+
+      .form-signin .form-floating:focus-within {
+        z-index: 2;
+      }
+
+
+      #message { 
+        background: black;
+      	color: white; 
+      	margin: 5px; 
+      	padding: 2px 2px; 
+      	border-radius: 3px; 
+      }
+      #message h1 { 
+      	color: white; 
+      	font-weight: bold; 
+      	font-size: 25px; 
+      	margin: 0 0 8px; 
+      }
+      #message h2 { 
+      	font-size: 22px; 
+      	font-weight: 300; 
+      	color: white; 
+      	margin: 0 0 16px;
+      }
+      #message p { 
+      	line-height: 140%; 
+      	margin: 16px 0 24px; 
+      	font-size: 14px; 
+      }
+      #message a { 
+      	display: block; 
+      	text-align: center; 
+      	background: #039be5; 
+      	text-transform: uppercase; text-decoration: none;
+      	color: white; padding: 16px; border-radius: 4px; 
+      }
+      #message, #message a { 
+      	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+      	 }
+      #load { 
+      	color: rgba(0,0,0,0.4); 
+      	text-align: center; 
+      	font-size: 13px; 
+      }
+      @media (max-width: 600px) {
+      	body, #message { 
+      		margin-top: 0; 
+      		background: black;
+      		color: white; 
+      		box-shadow: none; 
+      	}
+        body { 
+        	border-top: 10px solid #ffa100; 
+        }
+
+      }
+
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
